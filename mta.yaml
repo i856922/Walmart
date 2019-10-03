@@ -1,0 +1,19 @@
+ID: WalmartDemo
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: WalmartSchema
+   type: hdb
+   path: WalmartSchema
+   requires:
+    - name: hdi_WalmartSchema
+
+resources:
+ - name: hdi_WalmartSchema
+   parameters:
+      config:
+         schema: Walmart
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
