@@ -12,6 +12,6 @@ context talbes {
 
     /*@@layout{"layoutInfo":{"x":-1116,"y":-234.5}}*/
     entity Test3 {
-        key Id : Integer;
+        Id : Integer;
     };
 };
