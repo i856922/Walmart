@@ -4,4 +4,9 @@ context talbes {
     entity Test {
         key ID : Integer;
     };
+
+    /*@@layout{"layoutInfo":{"x":-1261,"y":-167.5}}*/
+    entity Test2 {
+        ID : Integer;
+    };
 };
